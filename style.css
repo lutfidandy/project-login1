@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header h1 {
+    font-family: monaco, monospace ;
+    color: white;
+    text-shadow: #2d2e2da2 2px 2px ;
+    margin-top: 10px ;
+    margin-left: 100px ;
+    background-color: #e9f1f34f;
+    padding: 5px ;
+}
+ h2 a {
+    font-family: monaco,monospace;
+    color: white;
+    text-shadow:#2d2e2da2 1px 1px  ;
+    text-decoration: none;
+   
+    
+
+}
+h2{
+
+    text-align: center;
+    margin-top: 30px ;
+}
+
+
+
+.greeting {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: monaco, monospace ;
+    font-size: medium;
+    text-shadow: #353635cb 2px 2px ;
+    color: white;
+}
+
+img {
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+body {
+    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-attachment: fixed;
+}
+
+form {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #0e99f7;
+    border: none;
+    padding: 5px 20px;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 35px;
+    margin-right: 10px;
+    
+}
+
+button a {
+    color: white;
+    text-shadow: #6ba1a163 1px 1px ;
+    text-align: center;
+    text-decoration: none;
+    font-family: monaco, monospace;
+}
+
+table {
+    margin: auto;
+    background-color: azure;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+table tr td {
+    padding: 10px;
+}
+
+table tr td label {
+    font-family: monaco ;
+    font-weight: bold;
+    font-size: large;
+    color: #484948;
+}
+
+table tr td input {
+    background-color: #0fe6e66b;
+    border-radius: 20px;
+    font-size: 20px ;
+    text-align: center;
+    font-family: arial ;
+    padding: 5px ;
+    border: none;
+}
